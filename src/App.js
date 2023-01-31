@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import Greeting from './components/greeting';
-import Hello from './components/hello';
+import Greeting from './components/pure/greeting';
+import Hello from './components/pure/hello';
+import TaskListComponent from './components/container/taskList';
 function App() {
   return (
     <div className="App">
@@ -19,7 +20,8 @@ function App() {
           Learn React
         </a>
         {/* Componente Propio*/}
-        <Hello name={'Juan'}/>
+        {/*<Hello name={'Juan'}/>*/}
+        <TaskListComponent/>
       </header>
       
     </div>
