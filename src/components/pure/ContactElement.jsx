@@ -8,7 +8,7 @@ const ContactElement = ({contact}) => {
         <p>Nombre: {contact.name}</p>
         <p>Apellido: {contact.lastName}</p>
         <p>Email: {contact.email}</p>
-        <p>Estado: {contact.connected ? 'Conectaod':'Desconectado'}</p>
+        <p>Estado: {contact.connected ? 'Conectado':'Desconectado'}</p>
     </div>
   )
 }
