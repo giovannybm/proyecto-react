@@ -6,7 +6,7 @@ import TaskListComponent from './components/container/taskList';
 import Ejemplo1 from './hooks/Ejemplo1';
 import Ejemplo2 from './hooks/Ejemplo2';
 import Ejemplo3 from './hooks/Ejemplo3';
-import Ejemlo4 from './hooks/Ejemlo4';
+import Ejemplo4 from './hooks/Ejemplo4';
 function App() {
   return (
     <div className="App">
@@ -29,11 +29,11 @@ function App() {
         {/*<Ejemplo1/>*/}
         {/*<Ejemplo2></Ejemplo2>*/}
         {/* <Ejemplo3/> */}
-        <Ejemlo4>
+        <Ejemplo4 name="name">
           <h3>
             Contenido del children
           </h3>
-        </Ejemlo4>
+        </Ejemplo4>
       </header>
       
     </div>
